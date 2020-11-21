@@ -1,0 +1,19 @@
+<head>
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div>
+    <h2 id="title">Green Screen Web Page</h2>
+    <canvas id="c1"></canvas>
+    <canvas id="c2"></canvas>
+    <br>
+    Enter foreground image here:
+    <input type="file" id="file1" multiple="false" accept="image/*" onchange="upload_fg()"><br>
+    Enter background image here:
+    <input type="file" id="file2" multiple="false" accept="image/*" onchange="upload_bg()"><br>
+    <input type="button" value="Display composite" id="cmp1" onclick="make_composite()">
+    <input type="button" value="Clear all" onclick="clearall()">
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
